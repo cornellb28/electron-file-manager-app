@@ -1,0 +1,15 @@
+body {
+    background: white;
+}
+
+.tqc, .tqc-all {
+    margin-bottom: 20px
+}
+
+.tqc {
+    background: red
+}
+
+.tqc-all {
+    background: blue
+}

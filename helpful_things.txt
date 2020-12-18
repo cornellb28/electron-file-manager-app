@@ -1,0 +1,17 @@
+// This is for notification
+<button onClick={() => { electron.notificationApi.sendNotification('Files moved successfully') }}>Notify</button>
+
+
+// Node-id3 read Files// const promises = args.map((file) => {
+//     return new Promise((resolve, reject) => {
+//         const options = {
+//             include: ['TALB', 'TIT2', 'TBPM', 'TCON', 'TIT1', 'TKEY', 'TLEN', 'WOAF', 'APIC'],
+//             onlyRaw: true,
+//             noRaw: false
+//         }
+//         const tags = NodeID3.read(file.path, options)
+//         file.tags = tags
+//         resolve(file)
+//     })
+// });
+// return Promise.all(promises);
